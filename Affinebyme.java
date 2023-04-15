@@ -1,5 +1,12 @@
 import java.util.Scanner;
-
+/*Programming Demonstartion:
+Write a Java program to input plaintext from keyboard and display its equivalent
+chipertext after encryption. Also, decrypt the chipertext to get the same plaintext. Your
+program should have three methods main(), encrypt() and decrypt(). You are allowed to add
+extra methods if required. The method headers are as follows:
+public static void main(String args[]) { } [5 marks]
+public static String encrypt(String plaintext) { } [5 marks]
+public static String decrypt(String chipertext) { } */
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class Affinebyme {
