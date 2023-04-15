@@ -26,21 +26,3 @@ C = (P k1 + k2) mod 26 × k1 + k2) mod 26
 P = ((C k2) k1 − k2) × k1 × k1 + k2) mod 26 − k2) × k11
 ) mod 26
 Representation of plaintext and ciphertext characters in Z26 is shown below.
-Example: Using affine cipher encrypt the message “hello” then decript with key pair (7, 2).
-Encryption: 
-We use 7 for the multiplicative key and 2 for the additive key. We get “ZEBBW”.
-Decryption:
-Add the additive inverse of 2 24 (mod 26) to the received ciphertext. Then multiply the − k2) × k1 ≡ 24 (mod 26) to the received ciphertext. Then multiply the
-result by the multiplicative inverse of 7− k2) × k11 15 (mod 26) to find the plaintext “hello”. ≡ 24 (mod 26) to the received ciphertext. Then multiply the
-Definitions:
-1. Additive Inverse : In Zn
-, two numbers a and b are additive inverses of each other if 
-a + b 0 (mod n) ≡ 24 (mod 26) to the received ciphertext. Then multiply the
-For example, the additive inverse of 4 in Z10 is 10 4 = 6. − k2) × k1
-2. Multiplicative Inverse : In Zn
-, two numbers a and b are the multiplicative inverse of
-each other if
-a b 1 (mod n) × k1 + k2) mod 26 ≡ 24 (mod 26) to the received ciphertext. Then multiply the
-For example, if the modulus is 10, then the multiplicative inverse of 3 is 7. 
-In other words, we have (3 7) mod 10 = 1. × k1 + k2) mod 26 
-Programming Demonstartion:
